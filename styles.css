@@ -1,3 +1,9 @@
+body {
+    margin:0;
+    /*overflow: scroll;*/
+
+}
+/*Hero css section*/
 .hero{
     background-color: #1F2937;
     padding: 10px;
@@ -7,11 +13,14 @@
    display: flex; 
    justify-content: space-between;
    align-items: center;
+   margin-left: 15%;
+   margin-right: 15%;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header ul {
@@ -28,9 +37,17 @@ text-decoration: none;
 
 .hero-main{
     display: flex;
-    padding: 50px;
+    flex-wrap: wrap-reverse;
+    padding-top: 50px;
+    padding-bottom: 50px;
     gap:50px;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.hero-left {
+    width: 45%;
 }
 
 .hero-main-text {
@@ -39,8 +56,69 @@ text-decoration: none;
     color: #F9FAF8; 
 }
 
-.hero-secondary-text, a {
+.hero-secondary-text, a, button {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+button {
+background-color: #3882F6;
+font-weight:bold;
+padding: 10px 30px;
+border-radius: 10px;
+border: none;
+}
+
+/*Info-section css*/
+.information {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.information img {
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+.info-cards {
+    display:flex;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.card {
+    width: 200px;
+    text-align: center;
+}
+ /*quote section css*/
+ .quote-section {
+    background-color: #E5E7EB;
+}
+.quote{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 60px;
+   
+}
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+.quote-author{
+    text-align: right;
+    font-weight: bold;
+    padding-top: 20px;
+}

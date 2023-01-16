@@ -1,6 +1,7 @@
 body {
     margin:0;
     /*overflow: scroll;*/
+    font-family: roboto, sans-serif;
 
 }
 /*Hero css section*/
@@ -121,4 +122,27 @@ border: none;
     text-align: right;
     font-weight: bold;
     padding-top: 20px;
+}
+.call-to-action {
+    margin: 60px 15%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.bottom {
+    border-radius: 10px;
+    border: 1px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
